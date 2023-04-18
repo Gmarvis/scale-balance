@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-container {
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 70vw;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scale {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 4px;
+}
+
+input {
+    height: 30px;
+}
+
+p {
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 5px;
+}

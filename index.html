@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css/styles.css" />
     <title>Scale balance</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main-container">
-    <div>
-
+      <input
+        type="number"
+        id="myarray"
+        placeholder="input weights to balance scale eg 1234567890"
+      />
+      <div class="weightssection">
         <div class="scale">
+          <div class="scale1">
+            <label for="">First input</label> <br />
+            <input type="number" id="firstInput" />
+          </div>
 
-    <div class="scale1">
-        <label for="">First input</label> <br>
-      <input type="number" id="firstInput">
+          <div class="scale2">
+            <div>
+              <label for="">Second input</label> <br />
+              <input type="number" id="secondInput" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="actions">
+        <button>balance iterms</button>
+        <div class="status">
+          <p>Output</p>
+        </div>
+      </div>
     </div>
+    <div class="error" id="error">
 
-    <p>output</p>
-
-      <div class="scale2">
-    <div>
-      <label for="">Second input</label> <br>
-      <input type="number" id="secondInput">
     </div>
+  </body>
+  <script src="./main.js"></script>
 
-</div>
-
-</div>
-
-</div>
-
-
-<br>
-    <button>balance iterms</button>
-</div>
-    
-</body>
-<script src="./main.js"></script>
-
-<br>
-
+  <br />
 </html>
